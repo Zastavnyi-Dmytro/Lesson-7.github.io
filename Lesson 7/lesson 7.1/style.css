@@ -1,0 +1,122 @@
+.text {
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.color {
+    margin-bottom: 20px;
+}
+.img {
+    margin-bottom: 20px;
+}
+
+.color-popup {
+    width: 606px;
+    height: 306px;
+    display: none;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+.color-block {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.orient-red{
+    background-color: #B32428;
+}
+.grey-white{
+    background-color: #E7EBDA;
+}
+.light-ivory{
+    background-color: #E6D690;
+}
+.chrome-green{
+    background-color: #2E3A23;
+}
+.opal-green{
+    background-color: #015D52;
+}
+.distant-blue{
+    background-color: #49678D;
+}
+.pale-brown{
+    background-color: #755C48;
+}
+.yellow-orange{
+    background-color: #ED760E;
+}
+.turquoise-blue{
+    background-color: #3F888F;
+}
+
+.img-popup {
+    width: 606px;
+    height: 306px;
+    display: none;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 650px;
+    top: 200px;
+}
+
+.img-block {
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+
+.img1{
+    background-image: url(https://images.wallpaperscraft.com/image/single/lynx_big_cat_animal_858755_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(https://images.wallpaperscraft.com/image/single/japanese_anemone_anemone_flower_858542_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(https://images.wallpaperscraft.com/image/single/trees_snow_forest_858538_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url(https://images.wallpaperscraft.com/image/single/waves_splashes_sea_858504_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img5{
+    background-image: url(https://images.wallpaperscraft.com/image/single/bridge_buildings_street_858588_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url(https://images.wallpaperscraft.com/image/single/log_trees_stream_858662_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img7{
+    background-image: url(https://images.wallpaperscraft.com/image/single/cat_leaves_animal_858283_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img8{
+    background-image: url(https://images.wallpaperscraft.com/image/single/mountains_hills_clouds_858326_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img9{
+    background-image: url(https://images.wallpaperscraft.com/image/single/river_trees_snow_858208_1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.active{
+    display: flex;
+}
